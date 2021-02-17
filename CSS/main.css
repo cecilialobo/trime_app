@@ -9,6 +9,8 @@
     --blue-button: #05668D;
     --green-button: #0BD8A7;
     --title-color: #fff;
+    --logo-head-font: co-headline, sans-serif; 
+    --body-font: 'Open Sans', sans-serif;
     --h1-font-size: 1.875rem;   /* 30px */
     --h2-font-size: 1rem;       /* 16px */
     --h3-font-size: 0.875rem;   /* 14px */
