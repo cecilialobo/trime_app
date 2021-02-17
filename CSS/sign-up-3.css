@@ -29,6 +29,14 @@ h1 {
     top: 76px;
 }
 
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
 img {
     border-radius: 50%;
 }
@@ -39,7 +47,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
 
-    margin: 
 
     position: absolute;
     bottom: 10%;
@@ -47,17 +54,18 @@ img {
 }
 
 .training-button {
-    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    text-align: center;
 
     /* from Adobe fonts */
     font-family: co-headline, sans-serif; 
     font-size: 30px;
 
-    padding: 10px 40px;
     border-radius: 40px;
-
-    width: 260px;
-    height: 73px;
 
     color: white;
     margin: 1rem 0;
@@ -72,5 +80,5 @@ img {
 }
 
 .training-button p {
-    
+    font-size: var(--xs-heading-font-size);
 }
