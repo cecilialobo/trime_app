@@ -22,24 +22,26 @@
 </head>
 
 <body>
-    <h1>
-        <img src="images/Trime.png" alt="Trime" />
-    </h1>
-    <main id="sign-up-3">
-        
     
-        <h2>Time to set up your profile</h2>
+    <main id="sign-up-3">
+        <h1>
+            <img src="images/Trime.png" alt="Trime" />
+        </h1>     
+    
+        <h2 class="normal-font-weigth">Time to set up your profile</h2>
 
-        <h3>Profile picture:</h3>
-        <img src="" alt="choose your profile picture" />
+        <h3 class="normal-font-weigth">Profile picture:</h3>
+        <img id="profile-img" src="images/profile-image.png" alt="choose your profile picture" />
 
-        <label for="description">Description:</label>
+        <div class="description">
+            <label for="description" id="description-label">Description:</label>
 
-        <textarea id="description" name="description" rows="4" cols="50">
-        Who are you?
-        </textarea>
+            <textarea id="description" name="description" rows="4" cols="50">
+            Who are you?
+            </textarea>
+        </div>
 
-        <h4>What type of training do you do?</h4>
+        <h4 class="normal-font-weigth">What type of training do you do?</h4>
         <section class="training-buttons">
             <div class="training-button">
                 <div><img src="images/training-icons/Running.png"></div>
@@ -83,7 +85,7 @@
             </div>
         </section>
         <section class="buttons">
-            <button class="button" id="continue">Sign up</button>
+            <button class="button" id="continue">Continue</button>
         </section>
     </main>
 </body>
