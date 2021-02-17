@@ -11,4 +11,12 @@
     --title-color: #fff;
     --logo-head-font: co-headline, sans-serif; 
     --body-font: 'Open Sans', sans-serif;
+    --h1-font-size: 1.875rem;   /* 30px */
+    --h2-font-size: 1rem;       /* 16px */
+    --h3-font-size: 0.875rem;   /* 14px */
+    --h4-font-size: 0.8125rem;  /* 13px */
+    --h5-font-size: 0.75rem;    /* 12px */
+    --h6-font-size: 0.6875rem;  /* 11px */
+    --xs-heading-font-size: 0.625rem; /* 10px */
+    --xxs-font-size: 0.5625rem;  /* 9px */
 }
