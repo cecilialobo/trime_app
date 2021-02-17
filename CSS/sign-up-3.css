@@ -1,0 +1,76 @@
+body {
+    background-color: var(--background-blue);
+}
+
+#sign-up-3 {
+    font-family: open-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+    width: fit-content;
+
+    position: relative;
+    top: 76px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.training-buttons {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 
+
+    position: absolute;
+    bottom: 10%;
+    left: calc(50% - 130px);
+}
+
+.training-button {
+    
+
+    /* from Adobe fonts */
+    font-family: co-headline, sans-serif; 
+    font-size: 30px;
+
+    padding: 10px 40px;
+    border-radius: 40px;
+
+    width: 260px;
+    height: 73px;
+
+    color: white;
+    margin: 1rem 0;
+    border: none;
+}
+
+.training-button div {
+    background-color: var(--blue-button);
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+}
+
+.training-button p {
+    
+}
