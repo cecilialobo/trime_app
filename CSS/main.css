@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-blue: #082D4C;
+    --blue-button: #05668D;
+    --green-button: #0BD8A7;
+    --title-color: #fff;
+}
