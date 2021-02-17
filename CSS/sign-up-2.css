@@ -1,0 +1,80 @@
+body {
+    background-color: var(--background-blue);
+    color: var(--title-color);
+    font-family: var(--body-font);
+}
+
+#login-landing {
+    width: 414px;
+    height: 896px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 76px;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+
+label {
+    font-size: 0.875rem;
+    margin: 0 1rem;
+}
+
+input {
+    height: 36px;
+    width: 83px;
+    border-radius: 8px;
+    border: none;
+}
+
+h4 {
+    text-align: left;
+    font-weight: 100;
+    margin: 55px 0 0 33px;
+}
+
+#input-block-1, #input-block-2 {
+    margin: 2rem auto;
+}
+
+#Vector-3 {
+    width: 348px;
+}
+
+#levels-of-training {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: 100;
+    margin: 1rem 33px;
+}
+
+.workout-btn {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 0.875rem;
+    background-color: var(--blue-button);
+    border: none;
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+    margin: 2rem;
+}
+
+#next {
+    width: 260px;
+    height: 73px;
+    font-family: var(--logo-head-font);
+    color: var(--title-color);
+    font-size: 30px;
+    border: none;
+    border-radius: 40px;
+    background-color: var(--green-button);
+    margin-top: 2rem;
+}
