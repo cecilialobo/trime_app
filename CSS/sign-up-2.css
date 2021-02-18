@@ -20,7 +20,7 @@ h3 {
 }
 
 label {
-    font-size: 0.875rem;
+    font-size: var(--h3-font-size);
     margin: 0 1rem;
 }
 
@@ -58,7 +58,7 @@ span {
 .workout-btn {
     color: var(--title-color);
     font-weight: 700;
-    font-size: 0.875rem;
+    font-size: var(--h3-font-size);
     background-color: var(--blue-button);
     border: none;
     border-radius: 100%;
@@ -72,7 +72,7 @@ span {
     height: 73px;
     font-family: var(--logo-head-font);
     color: var(--title-color);
-    font-size: 30px;
+    font-size: var(--h1-font-size);
     border: none;
     border-radius: 40px;
     background-color: var(--green-button);
