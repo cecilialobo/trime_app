@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Adobe fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/cie6yfl.css">
+
+    <!-- CSS -->
+    <link href="CSS/main.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/signup1.css" type="text/css" rel="stylesheet" />
+
+    <title>Trime App - Sign up</title>
+</head>
+<body>
+    <section class="sign-up-1">
+        <header>
+            <h1><img class="logo" src="images/trime-logo-small.svg" alt="Trime"</h1>
+        </header>
+        <main>
+            <div class="what-are-you">
+                <h2>What are you?</h2>
+                 <span>
+                 <div class="trainee circle"><p>Trainee</p></div>
+                 <div class="trainer circle"><p>Trainer</p></div>
+                 </span>
+            </div>
+            <div class="form-wrapper">
+                <form id="sign-up-1-form">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" maxlength="30" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" maxlength="30" required>
+                    <label for="e-mail">E-mail address</label>
+                    <input type="text" id="e-mail" maxlength="50" required>
+                    <label for="birth-date">Birth date</label>
+                    <div class="birthday">
+                        <input id="day" name="BirthDate" type="number" placeholder="DD" min="1" max="31" required />
+                        <input id="month" name="BirthDate" type="number" placeholder="MM" min="1" max="12" required />
+                        <input id="year" name="BirthDate" type="number" maxlength="4" placeholder="YYYY" required />
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="buttons">
+                <button class="next">Next</button>
+                <button class="log-in">Log in</button>
+            </div>
+        </main>
+    </section>
+    
+</body>
+</html>

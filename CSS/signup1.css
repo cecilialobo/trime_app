@@ -1,0 +1,140 @@
+*,
+*::after {
+    box-sizing: border-box; 
+    margin: 0;
+
+}
+:root {
+    --circle-size: 6.25rem;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--background-blue);
+    color: var(--title-color);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.sign-up-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 414px;
+    height: 896px;
+
+}
+.logo {
+    width: 8.6875rem;
+    margin-bottom: 0.8rem;
+}
+h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+}
+main { 
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.what-are-you {
+    display: block;
+}
+span {
+    position: relative;
+    display: flex;
+    margin: 1.5rem 2rem;
+    justify-content: space-evenly;
+    gap: 7rem;
+    right: 2.9rem;
+}
+
+.circle::after {
+    content: '';
+    position: absolute;
+    background-color: var(--blue-button);
+    height: var(--circle-size);
+    width: var(--circle-size);
+    border-radius: 50%;
+}
+.circle p {
+    position: absolute;
+    z-index: 1;
+    transform: translate(1.52rem, 2.21rem);
+    font-size: var(--h3-font-size);
+    font-family: co-headline, sans-serif; 
+    font-weight: 300;
+    font-style: normal;
+}
+form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: var(--h3-font-size);
+    padding-bottom: 0.25rem;
+    text-align: left; 
+}
+input {
+    height: 2.75rem;
+    width: 22rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+ .birthday {
+   width: 100%;
+   display: inline-flex;
+   justify-content: space-between;
+}
+#day,
+#month {
+    width: 20%;
+}
+#year {
+    width: 40%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+}
+.next,
+.log-in {
+    font-family: co-headline, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    border: none
+}
+.next {
+    background-color: var(--green-button);
+    width: 260px;
+    height: 73px;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.log-in {
+    background-color: var(--blue-button);
+    width: 132px;
+    height: 37px;
+    font-style: normal;
+    border-radius: 40px;
+    background-color: var(--blue-button);
+}
+
+
