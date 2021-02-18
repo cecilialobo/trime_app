@@ -6,7 +6,7 @@ body {
 
 #login-landing {
     width: 414px;
-    height: 896px;
+    height: 800px;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -67,7 +67,7 @@ span {
     margin: 2rem;
 }
 
-#next {
+/* #next {
     width: 260px;
     height: 73px;
     font-family: var(--logo-head-font);
@@ -75,6 +75,11 @@ span {
     font-size: 30px;
     border: none;
     border-radius: 40px;
+    background-color: var(--green-button);
+    margin-top: 2rem;
+} */
+
+#next {
     background-color: var(--green-button);
     margin-top: 2rem;
 }
